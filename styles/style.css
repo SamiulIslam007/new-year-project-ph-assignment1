@@ -14,11 +14,10 @@ body {
 .header {
   position: relative;
   border-radius: 16px;
-  background: linear-gradient(to bottom, #070211, transparent);
   background-image: url(../resources/Banner\ Image.png);
   width: 1320px;
   height: 600px;
-  margin: 50px 0;
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,4 +49,39 @@ body {
   font-style: normal;
   font-weight: 900;
   line-height: 95px; /* 131.944% */
+}
+
+/* Discount section styles */
+.discount {
+  display: flex;
+  justify-content: center;
+  margin: 120px 0;
+}
+
+.discount-heading {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.discount-text {
+  margin: 48px 0 8px 0;
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.discount-subheading {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
 }
