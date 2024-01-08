@@ -232,3 +232,74 @@ body {
 .best-content3 .best-offers-description {
   margin: 16px 0 45px 0;
 }
+
+/* Holidays Sale section styles */
+
+.holidays-sale {
+  margin-bottom: 120px;
+}
+.holidays-title {
+  text-align: center;
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.holidays-sale-heading {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  margin: 16px 0 28px 0;
+}
+.sale-red-style {
+  color: #f00;
+}
+
+.holidays-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  margin-bottom: 64px;
+}
+
+.box-img {
+  margin-bottom: -235px;
+}
+
+.holidays-img-content {
+  display: flex;
+  justify-content: space-between;
+}
+.person-img {
+  position: relative;
+}
+.person-img-container {
+  text-align: end;
+  display: flex;
+  justify-content: end;
+}
+.person-img .holiday-person-img {
+  border-radius: 16px 16px 0 0;
+  margin-bottom: -5px;
+}
+.person-img .discount-img {
+  position: absolute;
+  top: 10%;
+  left: -135px;
+  z-index: 10;
+}
+.red-design {
+  width: 100%;
+  height: 229px;
+  border-radius: 16px 0 16px 16px;
+  background: #f00;
+}
