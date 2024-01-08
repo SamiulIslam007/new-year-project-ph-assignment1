@@ -114,6 +114,7 @@ main {
   width: 1320px;
   height: 600px;
   margin-bottom: 120px;
+  display: flex;
 }
 .welcome::before {
   position: absolute;
@@ -149,6 +150,10 @@ main {
   font-weight: 400;
   line-height: 30px;
   padding: 25px 0;
+}
+.welcome-img {
+  margin-top: -25px;
+  z-index: 5;
 }
 
 /* Event details section starts */
