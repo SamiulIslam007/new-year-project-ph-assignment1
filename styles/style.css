@@ -148,3 +148,31 @@ body {
   line-height: 30px; /* 166.667% */
   padding: 25px 0;
 }
+
+/* Event details section starts */
+
+.event-details {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  padding: 100px 0;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.event-details .details {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.details .red-text {
+  color: #f00;
+}
